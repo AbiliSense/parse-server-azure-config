@@ -1,10 +1,10 @@
-## Parse Server Azure Config 
+## Parse Server Config 
 
-A package to simplify configuration of parse server on azure managed services.
+A package to simplify configuration of parse server.
 
 Exports an object with default configurations for storage, push, server, and dashboard.
 ```js
-let config = require('parse-server-azure-config');
+let config = require('parse-server-config');
 let ParseServer = require('parse-server').ParseServer;
 let ParseDashboard = require('parse-dashboard');
 let express = require('express');
@@ -16,8 +16,6 @@ let options = {
 
 let {
   server,     // parse server configuration options
-  storage,    // parse server azure storage configuration options
-  push,       // parse server azure push configuration options
   dashboard   // parse dashboard configuration options
 } = config(__dirname, options);
 
