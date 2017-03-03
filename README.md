@@ -1,4 +1,5 @@
 ## Parse Server Config 
+![Build Status](https://travis-ci.org/AbiliSense/parse-server-config.svg?branch=master "Build Status")
 
 A package to simplify configuration of parse server.
 
