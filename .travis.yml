@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- 6
+deploy:
+  provider: npm
+  email: info@abilisense.com
+  api_key:
+    secure: KtsUkmUGifkFL99UH763qBqMQa3I12gECc23UaXMl6Ai7XrXlXjxAMA3AHD7vjW7v1wiYivUAoVo+4i0FJACBtsDz5J9TaFt/V8UOOz1iC14ZMvyUF2pASIucE5cET10Kj98zV7pFh+apbasLZ0eCPczAaMdWmMx2EopoQqb+gv4BAiwege+b3JOwTqtViF3rPtFdJVx5yW9KQNsu1BwFHn1W0wQk7DJNVR3W5h7KcJCP7tfm0rtg+0MQWyiDIK3CvcOL98x+Qxrp+RPhOXPYDta2hTyaggL+w8Cl8ExxCNyGAeAeX2WirVm40XIl4ycPvMrgsVW+tjIYXdb0YkEs2wqd4ZshE3yBmoLyUyluml2CNYMrdvRsxvTnT48d3wSpPMSXMASYxFlW7xG2iq7xTeaZgwQL00N1W0O4QK2JS4YV21Le/K/MYWioiG9WNbjr63/KcDjfgBctmBmVPH3/vd1pVImd8wsQr+V36GVNoMWDtrb+4+QsORA0SUras31EsWbANgjxfgezDDL1mhrH3LlTKTZENfN87QrBfBiJbGPGQllORavXQkRz7xfBpF3jQDk11Fy0CbKqJuHFX0vjQ0XaRPuff0W4agcU8vNRXkDyaDa01GzPg5V9TOyDaSQ59aFeh7jV8fCGypRRoEzlrbuJ8wOxX+CI/8gkRLzbi0=
+  on:
+    repo: AbiliSense/parse-server-config
